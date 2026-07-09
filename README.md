@@ -153,4 +153,4 @@ The following features are planned but not yet implemented:
 
 ## License
 
-GPL-3.0 — free and open source.
+AGPL-3.0 — free and open source.
