@@ -1,0 +1,47 @@
+<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="200" fill="#12131a" rx="16"/>
+
+  <g transform="translate(30, 25)">
+    <rect width="220" height="150" rx="12" fill="#1e1f26" stroke="#3a3b46" stroke-width="1.5"/>
+    <rect x="14" y="14" width="192" height="24" rx="6" fill="#2a2b34"/>
+    <rect x="14" y="46" width="60" height="20" rx="10" fill="#4F7CFF"/>
+    <rect x="80" y="46" width="60" height="20" rx="10" fill="#2a2b34"/>
+    <rect x="14" y="78" width="192" height="10" rx="3" fill="#33343e"/>
+    <rect x="14" y="94" width="192" height="10" rx="3" fill="#262731"/>
+    <rect x="14" y="110" width="192" height="10" rx="3" fill="#33343e"/>
+    <text x="110" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#e6e6e6" text-anchor="middle">Dark</text>
+  </g>
+
+  <g transform="translate(270, 25)">
+    <rect width="220" height="150" rx="12" fill="#f5f5f7" stroke="#d0d0d5" stroke-width="1.5"/>
+    <rect x="14" y="14" width="192" height="24" rx="6" fill="#ffffff"/>
+    <rect x="14" y="46" width="60" height="20" rx="10" fill="#4F7CFF"/>
+    <rect x="80" y="46" width="60" height="20" rx="10" fill="#ffffff"/>
+    <rect x="14" y="78" width="192" height="10" rx="3" fill="#e2e2e6"/>
+    <rect x="14" y="94" width="192" height="10" rx="3" fill="#f0f0f3"/>
+    <rect x="14" y="110" width="192" height="10" rx="3" fill="#e2e2e6"/>
+    <text x="110" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#1c1c1e" text-anchor="middle">Light</text>
+  </g>
+
+  <g transform="translate(510, 25)">
+    <rect width="220" height="150" rx="12" fill="#2e3440" stroke="#4c566a" stroke-width="1.5"/>
+    <rect x="14" y="14" width="192" height="24" rx="6" fill="#3b4252"/>
+    <rect x="14" y="46" width="60" height="20" rx="10" fill="#88c0d0"/>
+    <rect x="80" y="46" width="60" height="20" rx="10" fill="#3b4252"/>
+    <rect x="14" y="78" width="192" height="10" rx="3" fill="#4c566a"/>
+    <rect x="14" y="94" width="192" height="10" rx="3" fill="#434c5e"/>
+    <rect x="14" y="110" width="192" height="10" rx="3" fill="#4c566a"/>
+    <text x="110" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#eceff4" text-anchor="middle">Nord</text>
+  </g>
+
+  <g transform="translate(750, 25)">
+    <rect width="220" height="150" rx="12" fill="#fdf6e3" stroke="#93a1a1" stroke-width="1.5"/>
+    <rect x="14" y="14" width="192" height="24" rx="6" fill="#eee8d5"/>
+    <rect x="14" y="46" width="60" height="20" rx="10" fill="#268bd2"/>
+    <rect x="80" y="46" width="60" height="20" rx="10" fill="#eee8d5"/>
+    <rect x="14" y="78" width="192" height="10" rx="3" fill="#d3cbb0"/>
+    <rect x="14" y="94" width="192" height="10" rx="3" fill="#e4ddc5"/>
+    <rect x="14" y="110" width="192" height="10" rx="3" fill="#d3cbb0"/>
+    <text x="110" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#657b83" text-anchor="middle">Solarized</text>
+  </g>
+</svg>

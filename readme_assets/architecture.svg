@@ -1,0 +1,56 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2b34"/>
+      <stop offset="100%" stop-color="#23242c"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4F7CFF"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="360" fill="#1e1f26" rx="20"/>
+
+  <g transform="translate(40, 140)">
+    <rect width="180" height="90" rx="12" fill="url(#boxGrad)" stroke="#3a3b46" stroke-width="1.5"/>
+    <text x="90" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Filesystem</text>
+    <text x="90" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">QDirIterator walk</text>
+  </g>
+
+  <line x1="220" y1="185" x2="288" y2="185" stroke="#4F7CFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(290, 120)">
+    <rect width="200" height="130" rx="12" fill="url(#boxGrad)" stroke="#4F7CFF" stroke-width="2"/>
+    <text x="100" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">FileScanner</text>
+    <text x="100" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">background QThread</text>
+    <text x="100" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">batched signals</text>
+    <text x="100" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#88C0D0" text-anchor="middle">500 entries / batch</text>
+  </g>
+
+  <line x1="490" y1="185" x2="558" y2="185" stroke="#4F7CFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(560, 110)">
+    <rect width="200" height="150" rx="12" fill="url(#boxGrad)" stroke="#3a3b46" stroke-width="1.5"/>
+    <text x="100" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">FileTableModel</text>
+    <text x="100" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">category bitmask AND</text>
+    <text x="100" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">substring search</text>
+    <text x="100" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">open-count ranking</text>
+    <text x="100" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#88C0D0" text-anchor="middle">QAbstractTableModel</text>
+  </g>
+
+  <line x1="760" y1="185" x2="828" y2="185" stroke="#4F7CFF" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(830, 130)">
+    <rect width="130" height="110" rx="12" fill="url(#boxGrad)" stroke="#88C0D0" stroke-width="2"/>
+    <text x="65" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">QTableView</text>
+    <text x="65" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">live UI</text>
+    <text x="65" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA3B5" text-anchor="middle">context menu</text>
+  </g>
+
+  <line x1="130" y1="140" x2="130" y2="80" stroke="#4c566a" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="130" y1="80" x2="895" y2="80" stroke="#4c566a" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="895" y1="80" x2="895" y2="128" stroke="#4c566a" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="510" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#5c6478" text-anchor="middle">main thread stays responsive throughout</text>
+
+  <text x="500" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#5c6478" text-anchor="middle">Qt signal/slot queued connections cross the thread boundary safely</text>
+</svg>
